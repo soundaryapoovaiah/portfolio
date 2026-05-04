@@ -60,14 +60,14 @@ export default function About() {
           {/* Left: prose */}
           <div className="space-y-5">
             <p className="reveal text-text leading-relaxed">
-              I&apos;m a Java Backend & Cloud Engineer completing my{" "}
+              I&apos;m a Java Backend & Cloud Engineer completed my{" "}
               <span className="text-bright font-medium">
                 M.Eng in Computer Science (4.0 GPA)
               </span>{" "}
               at the University of Cincinnati in April 2026. Before grad school, I
-              spent 2.5 years at Tata Consultancy Services building production
-              backend systems for Walgreens — one of the largest pharmacy chains
-              in the US.
+              spent almost 3 years at Tata Consultancy Services building production
+              backend systems for Walgreens, one of the largest pharmacy chains
+              in the USA.
             </p>
             <p className="reveal text-text leading-relaxed">
               My work centered on Java & Spring Boot microservices running on Azure
