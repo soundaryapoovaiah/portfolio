@@ -18,7 +18,7 @@ const projects = [
     featured: true,
   },
   {
-    number: "02",
+    number: "03",
     title: "SQL Injection Defense Lab",
     subtitle: "Web Security Capstone",
     description:
@@ -58,7 +58,7 @@ const projects = [
   github: "https://github.com/soundaryapoovaiah/inventory-order-management-api",
 },
   {
-    number: "03",
+    number: "04",
     title: "AI-Powered Chatbot Interface",
     subtitle: "Real-Time Web Application",
     description:
