@@ -18,21 +18,6 @@ const projects = [
     featured: true,
   },
   {
-    number: "03",
-    title: "SQL Injection Defense Lab",
-    subtitle: "Web Security Capstone",
-    description:
-      "Containerized a full SEED Labs security environment to demonstrate and defend against SQL injection vulnerabilities. Live attack simulation on vulnerable PHP apps followed by parameterized query countermeasures — adopted as the department's standard security curriculum.",
-    bullets: [
-      "Ran live injection attacks against login/query flows, proving unauthorized data access and manipulation via crafted payloads",
-      "Implemented PHP prepared statements, completely neutralizing all tested injection vectors",
-      "Extended the environment to Oracle Database for cross-RDBMS validation; lab guide adopted for future semesters",
-    ],
-    stack: ["Docker", "Docker Compose", "MySQL", "Oracle DB", "PHP", "Linux", "cURL", "SQL"],
-    color: "green",
-    featured: true,
-  },
-  {
   number: "02",
   title: "Inventory and Order Management API",
   subtitle: "Java Backend + PostgreSQL System",
@@ -57,6 +42,21 @@ const projects = [
   featured: true,
   github: "https://github.com/soundaryapoovaiah/inventory-order-management-api",
 },
+  {
+    number: "03",
+    title: "SQL Injection Defense Lab",
+    subtitle: "Web Security Capstone",
+    description:
+      "Containerized a full SEED Labs security environment to demonstrate and defend against SQL injection vulnerabilities. Live attack simulation on vulnerable PHP apps followed by parameterized query countermeasures — adopted as the department's standard security curriculum.",
+    bullets: [
+      "Ran live injection attacks against login/query flows, proving unauthorized data access and manipulation via crafted payloads",
+      "Implemented PHP prepared statements, completely neutralizing all tested injection vectors",
+      "Extended the environment to Oracle Database for cross-RDBMS validation; lab guide adopted for future semesters",
+    ],
+    stack: ["Docker", "Docker Compose", "MySQL", "Oracle DB", "PHP", "Linux", "cURL", "SQL"],
+    color: "green",
+    featured: true,
+  },  
   {
     number: "04",
     title: "AI-Powered Chatbot Interface",
