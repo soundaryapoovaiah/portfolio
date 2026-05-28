@@ -33,6 +33,31 @@ const projects = [
     featured: true,
   },
   {
+  number: "02",
+  title: "Inventory and Order Management API",
+  subtitle: "Java Backend + PostgreSQL System",
+  description:
+    "Built a production-style Spring Boot REST API for products, customers, inventory, and multi-item customer orders using PostgreSQL, Spring Data JPA, Flyway migrations, and Docker Compose. The system demonstrates backend development with transactional stock updates, validation, pagination, sorting, error handling, and SQL verification.",
+  bullets: [
+    "Designed a normalized PostgreSQL schema with products, customers, orders, and order_items tables using foreign-key relationships and Flyway database migrations",
+    "Implemented transactional order placement with customer validation, product validation, stock checks, inventory deduction, line-item totals, and total order calculation",
+    "Built REST APIs for product, customer, and order workflows with pagination, sorting, low-stock reporting, validation, and clean API error responses",
+  ],
+  stack: [
+    "Java",
+    "Spring Boot",
+    "PostgreSQL",
+    "Spring Data JPA",
+    "Flyway",
+    "Docker Compose",
+    "Maven",
+    "Postman",
+  ],
+  color: "cyan",
+  featured: true,
+  github: "https://github.com/soundaryapoovaiah/inventory-order-management-api",
+},
+  {
     number: "03",
     title: "AI-Powered Chatbot Interface",
     subtitle: "Real-Time Web Application",
