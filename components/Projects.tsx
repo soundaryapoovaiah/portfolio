@@ -83,6 +83,7 @@ const projects = [
     stack: ["Docker", "Docker Compose", "MySQL", "Oracle DB", "PHP", "Linux", "cURL", "SQL"],
     color: "purple",
     featured: true,
+    github: "https://github.com/soundaryapoovaiah/SQL-Injection-in-Oracle-Database-23ai",
   },  
   {
     number: "05",
@@ -97,6 +98,7 @@ const projects = [
     stack: ["HTML", "CSS", "JavaScript", "Gemini API", "REST"],
     color: "rose",
     featured: false,
+    github: "https://github.com/soundaryapoovaiah/My-ChatBot",
   },
 ];
 
