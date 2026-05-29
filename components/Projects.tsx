@@ -18,7 +18,34 @@ const projects = [
     featured: true,
   },
   {
-  number: "02",
+    number: "02",
+    title: "AI Diagnostic Ticket Triage API",
+    subtitle: "Java + AI Incident Triage Platform",
+    description:
+      "Built a production-grade Java Spring Boot backend that uses AI to classify IT support tickets, predict severity, route incidents, retrieve similar historical tickets using PostgreSQL pgvector, and audit every AI or human decision.",
+    bullets: [
+      "Integrated OpenAI-backed triage with deterministic fallback handling when the AI provider is unavailable, rate-limited, or misconfigured",
+      "Implemented PostgreSQL pgvector similarity search to retrieve related historical incidents from ticket embeddings",
+      "Added Flyway migrations, audit logs, manual override, Swagger docs, Docker Compose, JUnit/Mockito tests, and GitHub Actions CI",
+    ],
+    stack: [
+      "Java 21",
+      "Spring Boot",
+      "PostgreSQL",
+      "pgvector",
+      "OpenAI API",
+      "Flyway",
+      "Docker",
+      "JUnit",
+      "Mockito",
+      "GitHub Actions",
+    ],
+    color: "green",
+    featured: true,
+    link: "https://github.com/soundaryapoovaiah/ai-diagnostic-ticket-triage-api",
+  },
+  {
+  number: "03",
   title: "Inventory and Order Management API",
   subtitle: "Java Backend + PostgreSQL System",
   description:
@@ -38,12 +65,12 @@ const projects = [
     "Maven",
     "Postman",
   ],
-  color: "cyan",
+  color: "amber",
   featured: true,
   github: "https://github.com/soundaryapoovaiah/inventory-order-management-api",
 },
   {
-    number: "03",
+    number: "04",
     title: "SQL Injection Defense Lab",
     subtitle: "Web Security Capstone",
     description:
@@ -54,11 +81,11 @@ const projects = [
       "Extended the environment to Oracle Database for cross-RDBMS validation; lab guide adopted for future semesters",
     ],
     stack: ["Docker", "Docker Compose", "MySQL", "Oracle DB", "PHP", "Linux", "cURL", "SQL"],
-    color: "green",
+    color: "purple",
     featured: true,
   },  
   {
-    number: "04",
+    number: "05",
     title: "AI-Powered Chatbot Interface",
     subtitle: "Real-Time Web Application",
     description:
@@ -68,7 +95,7 @@ const projects = [
       "Built custom UI components with CSS animations for message transitions and typing indicators",
     ],
     stack: ["HTML", "CSS", "JavaScript", "Gemini API", "REST"],
-    color: "amber",
+    color: "rose",
     featured: false,
   },
 ];
@@ -91,6 +118,18 @@ const colorMap: Record<string, { accent: string; border: string; tag: string; do
     border: "hover:border-amber/40",
     tag: "bg-amber/8 text-amber border-amber/25",
     dot: "bg-amber",
+  },
+  purple: {
+    accent: "text-purple-400",
+    border: "hover:border-purple-400/40",
+    tag: "bg-purple-400/8 text-purple-400 border-purple-400/25",
+    dot: "bg-purple-400",
+  },
+  rose: {
+    accent: "text-rose-400",
+    border: "hover:border-rose-400/40",
+    tag: "bg-rose-400/8 text-rose-400 border-rose-400/25",
+    dot: "bg-rose-400",
   },
 };
 
@@ -155,7 +194,7 @@ export default function Projects() {
                         </h3>
                       </div>
                       <a
-                        href="https://github.com/soundaryapoovaiah"
+                        href={proj.github || "https://github.com/soundaryapoovaiah"}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-center gap-1.5 px-3 py-1.5 rounded border ${c.tag} font-mono text-xs transition-all duration-200 hover:opacity-80 flex-shrink-0`}
