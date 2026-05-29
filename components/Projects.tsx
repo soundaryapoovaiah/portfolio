@@ -42,7 +42,7 @@ const projects = [
     ],
     color: "green",
     featured: true,
-    link: "https://github.com/soundaryapoovaiah/ai-diagnostic-ticket-triage-api",
+    github: "https://github.com/soundaryapoovaiah/ai-diagnostic-ticket-triage-api",
   },
   {
   number: "03",
